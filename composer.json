@@ -1,5 +1,5 @@
 {
-    "name": "local/cms",
+    "name": "zdirnecamlcs96/laravel-cms",
     "type": "library",
     "license": "MIT",
     "require": {
