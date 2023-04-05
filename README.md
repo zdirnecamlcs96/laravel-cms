@@ -5,7 +5,7 @@ This package is a simple CMS with admin panel.
 
 # Get Started
 
-1. Run command `php artisan adminlte:install` to publish adminlte assests.
+1. Run command ` composer require zdirnecamlcs96/laravel-cms` to install the package
 
 2. Run command `php artisan migrate` to setup admin database structure.
 
