@@ -1,0 +1,168 @@
+.input-image-border {
+
+    padding:4rem;
+
+    border:1px solid #000;
+
+}
+
+
+
+.brand-link {
+
+
+
+    display: flex;
+
+    justify-content: center;
+
+
+
+}
+
+
+
+[class*=sidebar-dark] .brand-link {
+
+    background: #fff;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+
+.sidebar {
+
+    padding-left: 0rem;
+
+    padding-right: 0rem;
+
+    background: #fff;
+
+}
+
+
+
+.sidebar-dark-primary .sidebar a {
+
+    color: #6c757d;
+
+}
+
+
+
+[class*=sidebar-dark] .user-panel {
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+
+.sidebar-dark-primary .nav-sidebar>.nav-item.menu-open>.nav-link, .sidebar-dark-primary .nav-sidebar>.nav-item:hover>.nav-link {
+
+    color: #6c757d;
+
+}
+
+
+
+.sidebar-dark-primary .user-panel a:hover {
+
+    color: #6c757d;
+
+}
+
+
+
+
+
+.elevation-4 {
+
+    background: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+.password-group {
+
+    position: relative;
+
+}
+
+
+
+.password-group > input {
+
+    width: 100%;
+
+}
+
+
+
+.password-visibility {
+
+    position: absolute;
+
+    right: 14px;
+
+    top: 7px;
+
+}
+
+
+
+
+
+.password-visibility, a:hover {
+
+    color:#6c757d;
+
+}
+
+
+
+.password-visibility, a {
+
+    color:#6c757d;
+
+}
+
+
+
+.color_white {
+
+    color:#fff !important;
+
+}
+
+
+
+.main-sidebar {
+
+    z-index: 1;
+
+}
+
+.custom-select {
+
+    background: none;
+ 
+}
+
+.record-item .overlay .control {
+    padding: 0;
+    margin: -0.35rem .35rem;
+    font-size: 1.25rem;
+    color: white;
+    cursor: pointer;
+    transition: color .25s, text-shadow .25s;
+}

@@ -1,0 +1,136 @@
+.form-group .select2-container .select2-selection--single .select2-selection__rendered {
+    margin: -8px;
+}
+
+.form-group .select2-selection__choice {
+    color: black !important;
+}
+
+.dropzone {
+    background-color: #F7F7F7;
+    border-width: 1px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+    transition: background-color .25s, box-shadow .25s, font-size .25s;
+    font-size: 1.5rem;
+}
+
+.dropzone:hover {
+    background-color: #EEE;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .65);
+}
+
+.record-item {
+    position: relative;
+    background-color: #EEE;
+    width: 100%;
+    padding-top: 100%;
+    margin: .5rem 0;
+    border-radius: 7.5px;
+    box-shadow: 0 0 7.5px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.record-item:hover {
+    box-shadow: 0 0 8.5px rgba(0, 0, 0, .65);
+}
+
+.record-item .record-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.record-item:hover .record-image {
+    transform: scale(1.2);
+}
+
+.record-item .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    padding: .3rem .5rem;
+    bottom: 0;
+    font-size: 0;
+    color: white;
+    height: 30px;
+}
+
+.record-item .overlay>* {
+    display: inline-block;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.record-item .overlay i {
+    font-size: 20px !important;
+}
+
+.record-item .overlay .control {
+    padding: .2rem;
+    margin: 0 .35rem;
+    font-size: 1.25rem;
+    color: white;
+    cursor: pointer;
+    transition: color .25s, text-shadow .25s;
+}
+
+.record-item .overlay .control:hover {
+    color: var(--info);
+    text-shadow: 0 0 12.5px rgba(0, 0, 0, .75);
+}
+
+.record-item .overlay .not-active {
+    margin: 0 .35rem;
+    float: right;
+    font-size: 1.25rem;
+    color: #FF553B;
+    text-shadow: 0 0 7.5px rgba(0, 0, 0, .5);
+}
+
+.record-img-popup {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .65);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+.record-img-popup .content {
+    position: relative;
+    display: inline-block;
+    max-width: 85vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .65);
+}
+
+.record-img-popup .content .btn-close {
+    position: absolute;
+    padding: .5rem;
+    top: .25rem;
+    right: .25rem;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    line-height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.record-img-popup .content>img {
+    position: relative;
+    background-color: #EEE;
+    max-width: 100%;
+    max-height: 85vh;
+}
